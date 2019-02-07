@@ -6,11 +6,11 @@
  * Time: 12:18
  */
 
-namespace Configure\Entity;
+namespace Nybbl\ConfigureModule\Entity;
 
 /**
  * Interface SettingsInterface
- * @package Configure\Entity
+ * @package Nybbl\ConfigureModule\Entity
  */
 interface SettingsInterface
 {

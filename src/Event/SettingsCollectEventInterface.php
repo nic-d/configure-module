@@ -6,14 +6,14 @@
  * Time: 12:17
  */
 
-namespace Configure\Event;
+namespace Nybbl\ConfigureModule\Event;
 
 use Zend\EventManager\EventInterface;
 use Zend\EventManager\ListenerAggregateInterface;
 
 /**
  * Interface SettingsCollectEventInterface
- * @package Configure\Event
+ * @package Nybbl\ConfigureModule\Event
  */
 interface SettingsCollectEventInterface extends ListenerAggregateInterface
 {

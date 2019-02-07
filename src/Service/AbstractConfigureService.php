@@ -6,14 +6,14 @@
  * Time: 12:31
  */
 
-namespace Configure\Service;
+namespace Nybbl\ConfigureModule\Service;
 
 use Doctrine\ORM\Tools\SchemaTool;
 use Doctrine\ORM\EntityManagerInterface;
 
 /**
  * Class AbstractConfigureService
- * @package Configure\Service
+ * @package Nybbl\ConfigureModule\Service
  */
 abstract class AbstractConfigureService implements ConfigureServiceInterface
 {

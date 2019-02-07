@@ -6,15 +6,15 @@
  * Time: 13:34
  */
 
-namespace Configure\Event\Factory;
+namespace Nybbl\ConfigureModule\Event\Factory;
 
-use Configure\Event\ConfigureEvent;
 use Interop\Container\ContainerInterface;
+use Nybbl\ConfigureModule\Event\ConfigureEvent;
 use Zend\ServiceManager\Factory\FactoryInterface;
 
 /**
  * Class ConfigureEventFactory
- * @package Configure\Event\Factory
+ * @package Nybbl\ConfigureModule\Event\Factory
  */
 class ConfigureEventFactory implements FactoryInterface
 {

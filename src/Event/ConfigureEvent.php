@@ -6,17 +6,17 @@
  * Time: 13:34
  */
 
-namespace Configure\Event;
+namespace Nybbl\ConfigureModule\Event;
 
 use Psr\Container\ContainerInterface;
 use Zend\EventManager\EventInterface;
 use Zend\EventManager\EventManagerInterface;
-use Configure\Service\AbstractConfigureService;
-use Configure\Service\ConfigureServiceInterface;
+use Nybbl\ConfigureModule\Service\AbstractConfigureService;
+use Nybbl\ConfigureModule\Service\ConfigureServiceInterface;
 
 /**
  * Class ConfigureEvent
- * @package Configure\Event
+ * @package Nybbl\ConfigureModule\Event
  */
 class ConfigureEvent implements ConfigureEventInterface
 {

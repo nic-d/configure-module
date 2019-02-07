@@ -6,11 +6,11 @@
  * Time: 12:02
  */
 
-namespace Configure\Service;
+namespace Nybbl\ConfigureModule\Service;
 
 /**
  * Interface ConfigureServiceInterface
- * @package Configure\Service
+ * @package Nybbl\ConfigureModule\Service
  */
 interface ConfigureServiceInterface
 {

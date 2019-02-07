@@ -6,17 +6,17 @@
  * Time: 12:05
  */
 
-namespace Configure;
+namespace Nybbl\ConfigureModule;
 
-use Configure\Event\ConfigureEvent;
 use Zend\EventManager\EventInterface;
 use Zend\EventManager\EventManagerInterface;
+use Nybbl\ConfigureModule\Event\ConfigureEvent;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 use Zend\ModuleManager\Feature\BootstrapListenerInterface;
 
 /**
  * Class Module
- * @package Configure
+ * @package Nybbl\ConfigureModule
  */
 class Module implements ConfigProviderInterface, BootstrapListenerInterface
 {

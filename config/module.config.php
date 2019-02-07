@@ -6,7 +6,7 @@
  * Time: 12:05
  */
 
-use Configure\Event;
+use Nybbl\ConfigureModule\Event;
 
 return [
     'service_manager' => [
