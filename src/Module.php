@@ -11,6 +11,7 @@ namespace Nybbl\ConfigureModule;
 use Zend\EventManager\EventInterface;
 use Zend\EventManager\EventManagerInterface;
 use Nybbl\ConfigureModule\Event\ConfigureEvent;
+use Nybbl\ConfigureModule\Event\SettingsCollectEvent;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 use Zend\ModuleManager\Feature\BootstrapListenerInterface;
 
@@ -40,5 +41,9 @@ class Module implements ConfigProviderInterface, BootstrapListenerInterface
         /** @var ConfigureEvent $configureEvent */
         $configureEvent = $e->getApplication()->getServiceManager()->get(ConfigureEvent::class);
         $configureEvent->attach($eventManager);
+
+        /** @var SettingsCollectEvent $settingsCollectEvent */
+        $settingsCollectEvent = $e->getApplication()->getServiceManager()->get(SettingsCollectEvent::class);
+        $settingsCollectEvent->attach($eventManager);
     }
 }

@@ -12,13 +12,17 @@ return [
     'service_manager' => [
         'factories' => [
             Event\ConfigureEvent::class => Event\Factory\ConfigureEventFactory::class,
+            Event\SettingsCollectEvent::class => Event\Factory\SettingsCollectEventFactory::class,
         ],
     ],
 
     'configure_module' => [
-        // Map your FQCN service classes which extend the AbstractConfigureService here
         'configure_services' => [
             // ExampleConfigureService::class,
+        ],
+
+        'settings_services' => [
+//             'module_name' => ExampleSettingsService::class,
         ],
     ],
 ];

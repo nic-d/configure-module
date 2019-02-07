@@ -8,17 +8,16 @@
 
 namespace Nybbl\ConfigureModule\Service;
 
+use Nybbl\ConfigureModule\Entity\SettingsInterface;
+
 /**
  * Interface SettingsServiceInterface
  * @package Nybbl\ConfigureModule\Service
  */
 interface SettingsServiceInterface
 {
-    public function get();
-
-    public function set();
-
-    public function update();
-
-    public function remove();
+    /**
+     * @return SettingsInterface
+     */
+    public function get(): SettingsInterface;
 }
