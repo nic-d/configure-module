@@ -25,6 +25,9 @@
     "require-dev": {
         "phpunit/phpunit": "^6.0"
     },
+    "suggest": {
+        "doctrine/orm": "^2.5.14, to use basic features."
+    },
     "autoload": {
         "psr-4": {
             "Nybbl\\ConfigureModule\\": "src/"
