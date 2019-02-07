@@ -1,0 +1,38 @@
+{
+    "name": "nybbl/configure-module",
+    "description": "Allows you to hook into (and dispatch) Install events",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf",
+        "zf3",
+        "zendframework",
+        "configure"
+    ],
+    "authors": [
+        {
+            "name": "Nic Davies",
+            "email": "nic.davies.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "zendframework/zend-servicemanager": "^3.3",
+        "zendframework/zend-mvc": "^3.1@dev",
+        "zendframework/zend-eventmanager": "^3.2@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nybbl\\ConfigureModule\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nybbl\\ConfigureModule\\Test\\": "tests/"
+        }
+    }
+}
